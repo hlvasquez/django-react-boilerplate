@@ -1,0 +1,4 @@
+-r base.txt
+
+# Production static file serving fallback when NGINX is not in front
+whitenoise==6.11.0

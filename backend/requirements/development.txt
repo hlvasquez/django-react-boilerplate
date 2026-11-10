@@ -1,0 +1,4 @@
+-r base.txt
+
+# Local development helpers
+django-extensions==4.1

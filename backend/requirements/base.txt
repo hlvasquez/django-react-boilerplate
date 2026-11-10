@@ -1,0 +1,19 @@
+# Core framework
+Django==6.0
+djangorestframework==3.16.1
+
+# Configuration
+django-environ==0.12.0
+
+# Database
+psycopg[binary]==3.2.10
+
+# ASGI server
+daphne==4.2.1
+
+# Async tasks + Redis-compatible broker/cache (Dragonfly)
+celery==5.5.3
+redis==6.4.0
+
+# Cross-origin access for the Vite frontend
+django-cors-headers==4.9.0
